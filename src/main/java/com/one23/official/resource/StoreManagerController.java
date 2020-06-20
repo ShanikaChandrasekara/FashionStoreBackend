@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://fashionstore-online.netlify.app")
 public class StoreManagerController {
     @Autowired
     private StoreManagerRepository smrepository;
